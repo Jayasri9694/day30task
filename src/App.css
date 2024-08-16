@@ -1,0 +1,117 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: black;
+  color: white;
+}
+.inputform{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+}
+.iform{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 40px;
+  border-radius: 20px;
+}
+.iname,.ibatch,.irollno{
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left:20px ;
+  margin: 30px;
+  border: none;
+  box-shadow: 5px 5px 10px;
+}
+.abtn{
+  margin: 30px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+
+}
+.ubtn{
+  margin: 30px;
+  height: 30px;
+  background-color: rgb(1, 68, 1);
+  color: white;
+  border-radius: 30px;
+
+}
+.cards{
+  display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+.card{
+  background-color: white;
+  border: 1px solid;
+  width: 400px;
+  margin: 30px;
+  border-radius: 5px;
+}
+h2{
+ 
+  padding: 10px;
+}
+.rollno,.batch{
+  padding: 10px;
+  text-align: center;
+ 
+}
+.btn{
+ 
+  text-align: end;
+  padding: 10px;
+}
+.ebtn{
+  background-color: #3B71CA;
+  height: 30px;
+  width: 50px;
+  margin: 10px;
+   border:none;
+   border-radius: 3px;
+}
+.ebtn:hover{
+  border:2px solid #80deea ;
+}
+.dbtn{
+  background-color: red;
+  height: 30px;
+  width: 50px;
+  margin: 5px;
+  border:none;
+  border-radius: 3px;
+  color: white;
+}
+
+.dbtn:hover{
+  border:2px solid #ff8a65;
+}
+
+@media screen and (max-width:1400px) {
+  .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .cards{
+      display: grid;
+      grid-template-columns: 1fr ;
+  }
+}
